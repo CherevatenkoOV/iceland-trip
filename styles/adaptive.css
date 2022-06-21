@@ -1,0 +1,1232 @@
+@media screen and (max-width: 1800px) {
+    #main-info #benefits #benefits-map .benefit#benefit-2 {
+        left: 36%;
+    }
+}
+
+@media screen and (max-width: 1666px) {
+    #main-info #benefits #benefits-map .benefit#benefit-1 {
+        left: 19%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #main-info #benefits #benefits-map .benefit#benefit-3 {
+        left: 51%;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+
+    #main-info #benefits #benefits-map .benefit#benefit-3 {
+        left: 53%;
+    }
+
+    #main-info #benefits .benefit .benefit-title {
+        margin-top: 17px;
+    }
+
+    #main-info #benefits #benefits-map .benefit .benefit-text {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 1430px) {
+    #main-section #main-ice-block {
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    #main-info #benefits #benefits-map {
+        max-width: 1200px;
+        height: 650px;
+    }
+
+    #main-info #benefits #benefits-map .benefit {
+        width: 244px;
+    }
+
+    #main-info #benefits #benefits-map .benefit#benefit-1 {
+        position: absolute;
+        top: 7.5%;
+        left: 15%
+    }
+
+    #main-info #benefits #benefits-map .benefit#benefit-2 {
+        position: absolute;
+        top: 7.5%;
+        left: calc(85% - 244px);
+    }
+
+    #main-info #benefits #benefits-map .benefit#benefit-3 {
+        position: absolute;
+        top: 57%;
+        left: 15%
+    }
+
+    #main-info #benefits #benefits-map .benefit#benefit-4 {
+        position: absolute;
+        top: 57%;
+        left: calc(85% - 244px);
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    #main-section #main-ice-block {
+        width: 860px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+
+    #header {
+        justify-content: flex-start;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #header #header-items {
+        margin-left: 215px;
+    }
+
+
+    #main-section {
+        background: url('../images/main-ice.png') no-repeat;
+        margin: 0 auto;
+        background-position: top;
+        padding-bottom: 157px;
+    }
+
+    #main-section #main-ice-block {
+        display: none;
+    }
+
+    #main-section #main-title {
+        width: 840px;
+        margin: 0 auto;
+        color: #ffffff;
+        padding-top: 70px;
+    }
+
+    #main-section #main-title-junior {
+        width: 840px;
+        color: #ffffff;
+        margin: 0 auto;
+    }
+
+    #main-section #main-actions {
+        margin: 50px auto 0 auto;
+        padding-bottom: 122px;
+        max-width: 975px;
+        justify-content: space-around;
+    }
+
+    #main-section #main-title-junior {
+        font-size: 28px;
+    }
+
+    #main-section #main-actions {
+        width: 850px;
+        justify-content: space-between;
+    }
+
+    #main-section #main-actions #route {
+        margin-left: 0;
+    }
+
+    #main-section #main-actions a {
+        margin-left: 0;
+    }
+
+    #main-info {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #main-info #main-info-island-is {
+        max-width: 1000px;
+    }
+
+
+    #main-info #unique-place {
+        max-width: 1000px;
+    }
+
+    #tour-program #tour-program-container {
+        max-width: 1000px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #reviews #reviews-container {
+        max-width: 1000px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #gallery {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #gallery #gallery-container {
+        max-width: 1000px;
+    }
+
+    #gallery #gallery-container .gallery-sections .gallery-section.first,
+    #gallery #gallery-container .gallery-sections .gallery-section.second,
+    #gallery #gallery-container .gallery-sections .gallery-section.third {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #gallery #gallery-container .gallery-sections .gallery-section.first a.test-popup-link,
+    #gallery #gallery-container .gallery-sections .gallery-section.second a.test-popup-link,
+    #gallery #gallery-container .gallery-sections .gallery-section.third a.test-popup-link {
+        position: static;
+        left: none;
+        top: none;
+    }
+
+    #gallery #gallery-container .gallery-sections .gallery-section.first a:nth-child(2),
+    #gallery #gallery-container .gallery-sections .gallery-section.first a:nth-child(4),
+    #gallery #gallery-container .gallery-sections .gallery-section.second a:nth-child(3),
+    #gallery #gallery-container .gallery-sections .gallery-section.third a:nth-child(3),
+    #gallery #gallery-container .gallery-sections .gallery-section.third a:nth-child(4) {
+        display: none;
+    }
+
+    #gallery #gallery-container .gallery-sections .gallery-section.first a:nth-child(1) {
+        order: 1;
+    }
+
+    #gallery #gallery-container .gallery-sections .gallery-section.first a:nth-child(5) {
+        order: 2;
+    }
+
+    #gallery #gallery-container .gallery-sections .gallery-section.first a:nth-child(3) {
+        order: 3;
+    }
+
+    #gallery #gallery-container .gallery-sections .gallery-section.second a:nth-child(1) {
+        order: 1;
+    }
+
+    #gallery #gallery-container .gallery-sections .gallery-section.second a:nth-child(4) {
+        order: 2;
+    }
+
+    #gallery #gallery-container .gallery-sections .gallery-section.second a:nth-child(2) {
+        order: 3;
+        width: unset;
+    }
+
+    #gallery #gallery-container .gallery-sections .gallery-section.first a.test-popup-link img,
+    #gallery #gallery-container .gallery-sections .gallery-section.second a.test-popup-link img {
+        width: 270px;
+    }
+
+    #gallery #gallery-container .gallery-sections .gallery-section.second a:nth-child(4) {
+        width: none;
+    }
+
+    #footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #header #header-items {
+        margin-left: 130px;
+    }
+
+    #main-section #main-actions {
+        margin-top: 30px;
+        padding-bottom: 122px;
+        max-width: 780px;
+        padding-right: 70px;
+        align-items: flex-end;
+    }
+
+    #main-section #main-actions #main-actions-items #video-section-href-1 {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 8px;
+    }
+
+    #main-section #main-actions  #video-section-href-2 {
+        display: none;
+    }
+
+    #main-info #main-info-island-is {
+        flex-direction: column;
+        max-width: 550px;
+    }
+
+    #main-info #main-info-island-is>h2.white-title {
+        display: block;
+    }
+
+    #main-info #main-info-island-is #main-info-text .white-title {
+        display: none;
+    }
+
+    #main-info #main-info-island-is .white-text {
+        width: 503px;
+    }
+
+    #main-info #main-info-island-is .white-square {
+        margin-top: 40px;
+    }
+
+    #main-info #unique-place #unique-place-info {
+        flex-direction: column;
+    }
+
+    #main-info #unique-place {
+        width: 500px;
+    }
+
+    #main-info #unique-place #unique-place-info {
+        margin-top: 20px;
+    }
+
+    #main-info #unique-place #unique-place-info #blue-lagoon {
+        margin-top: 50px;
+        padding-bottom: 270px;
+    }
+
+    #tour-program {
+        padding-bottom: 100px;
+    }
+
+    #tour-program #tour-program-container {
+        width: 500px;
+    }
+
+    #tour-program #tour-program-container .tour-programs .tour-program-list {
+        flex-direction: column;
+        height: 800px;
+    }
+
+    #tour-program #tour-program-container .tour-programs .tour-program-list .tour-program-info .tour-program-info-day-title {
+        order: 1;
+    }
+
+    #tour-program #tour-program-container .tour-programs .tour-program-list .tour-program-info .tour-program-info-title {
+        order: 2;
+        margin-top: 40px;
+    }
+
+    #tour-program #tour-program-container .tour-programs .tour-program-list .white-square {
+        order: 4;
+        top: 146px;
+        position: absolute;
+    }
+
+    #tour-program #tour-program-container .tour-programs .tour-program-list .tour-program-info .tour-program-info-text {
+        margin-top: 520px;
+        width: 496px;
+        order: 3;
+    }
+
+    #tour-program #tour-program-container #tour-program-navigation {
+        position: relative;
+    }
+
+    #tour-program #tour-program-container #tour-program-navigation .download-href {
+        margin-top: 75px;
+    }
+
+    .button-next-program {
+        left: 70px;
+        bottom: -40px;
+    }
+
+
+
+    .button-prev-program {
+        right: none;
+        left: 0;
+        bottom: -40px;
+    }
+
+    #tour-program #tour-program-container #tour-program-navigation {
+        right: 0;
+    }
+
+    #reviews #reviews-container {
+        max-width: 500px;
+    }
+
+    #reviews #reviews-container .reviews-section {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+
+    #reviews #reviews-container .reviews-section .review-photo {
+        position: relative;
+        left: 0;
+    }
+
+    #reviews #reviews-container .reviews-section .reviews-info {
+        width: 400px;
+        height: 270px;
+    }
+
+
+    #reviews #reviews-container .reviews-box .button-prev-reviews {
+        left: 50px;
+        bottom: 25px;
+    }
+
+    #reviews #reviews-container .reviews-box .button-next-reviews {
+        left: 120px;
+        bottom: 25px;
+    }
+
+    #reviews #reviews-container .reviews-section .reviews-info .reviews-text {
+        width: 400px;
+    }
+
+    #gallery {
+        padding-top: 100px;
+    }
+
+    #gallery #gallery-container .gallery-sections {
+        margin-top: 0;
+    }
+
+    #gallery #gallery-container .gallery-sections .gallery-section.first, #gallery #gallery-container .gallery-sections .gallery-section.second, #gallery #gallery-container .gallery-sections .gallery-section.third {
+        justify-content: space-around;
+    }
+
+
+    #gallery #gallery-container .gallery-sections .gallery-section.first a:nth-child(5),
+    #gallery #gallery-container .gallery-sections .gallery-section.second a:nth-child(4),
+    #gallery #gallery-container .gallery-sections .gallery-section.third a:nth-child(2) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #gallery-container>div>button.button-prev-gallery.slick-arrow {
+        bottom: -8.5%;
+        left: 42.2%;
+    }
+
+    #gallery-container>div>button.button-next-gallery.slick-arrow {
+        position: absolute;
+        bottom: -9%;
+        right: 42.1%;
+        cursor: pointer;
+        z-index: 99;
+    }
+
+    .slick-dots li {
+        margin: 0 1.5px;
+    }
+
+    #main-section #main-title {
+        width: unset;
+        max-width: 840px;
+    }
+
+    #main-section #main-title-junior {
+        width: unset;
+        max-width: 840px;
+    }
+
+    #main-section #main-actions {
+        width: unset;
+        max-width: 840px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    #header #header-items {
+        margin-left: 80px;
+    }
+
+    #main-section-ad {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 15px 48px 15px;
+        position: relative;
+    }
+
+    #main-section-ad #main-ice-block-ad {
+        max-width: 1004px;
+        height: 550px;
+        position: absolute;
+        left: 0;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+    #main-section-ad #main-title-ad {
+        max-width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 140px;
+    }
+
+    #main-info #benefits #benefits-map {
+        max-width: 320px;
+        height: 1200px;
+    }
+
+    #main-info #benefits #benefits-map .benefit {
+        width: 280px;
+    }
+
+    #main-info #benefits #benefits-map .benefit#benefit-1 {
+        position: absolute;
+        top: 7.5%;
+        left: calc(50% - 140px);
+    }
+
+    #main-info #benefits #benefits-map .benefit#benefit-2 {
+        position: absolute;
+        top: 33%;
+        left: calc(50% - 140px);
+    }
+
+    #main-info #benefits #benefits-map .benefit#benefit-3 {
+        position: absolute;
+        top: 57%;
+        left: calc(50% - 140px);
+    }
+
+    #main-info #benefits #benefits-map .benefit#benefit-4 {
+        position: absolute;
+        top: 83.5%;
+        left: calc(50% - 140px);
+    }
+
+    #main-section-ad #href-video-ad {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: "Montserrat", sans-serif;
+        color: rgb(255, 255, 255);
+        width: 250px;
+        margin: 35px auto 0 auto;
+    }
+
+    #main-section-ad #href-video-ad span {
+        margin-left: 20px;
+    }
+
+
+    #main-section-ad #main-ice-block-ad #main-ice-ad {
+        width: 100%;
+        height: 100%;
+    }
+
+    #main-section-ad #main-title-ad {
+        font-size: 30px;
+        font-family: "Montserrat-SemiBold", sans-serif;
+        color: white;
+        padding-top: 110px;
+    }
+
+    #main-section-info-ad {
+        margin: 270px auto 80px auto;
+    }
+
+
+    #main-section-ad #main-title-ad {
+        font-size: 40px;
+    }
+
+    #main-section-info-ad #main-title-junior-ad {
+        width: 180px;
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+        color: rgb(44, 44, 44);
+        line-height: 1.05;
+        text-align: center;
+    }
+
+    #main-section-info-ad #route-ad {
+        width: 290px;
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+        color: rgb(44, 44, 44);
+        line-height: 1.05;
+        margin: 110px auto 0 auto;
+        position: relative;
+    }
+
+    #main-section-info-ad #route-ad #route-data-ad {
+        position: absolute;
+        bottom: 112px;
+        left: 0;
+    }
+
+    #main-section-info-ad #route-ad #route-price-ad {
+        position: absolute;
+        top: -20px;
+        left: 75px;
+    }
+
+    #main-section-info-ad #route-ad #route-place-ad {
+        position: absolute;
+        top: -46px;
+        right: -58px;
+    }
+
+    #main-section-info-ad #route-ad .route-text {
+        font-size: 14px;
+        font-family: "Montserrat", sans-serif;
+        color: rgb(44, 44, 44);
+        line-height: 1.357;
+    }
+
+    #main-section-info-ad #route-ad img {
+        width: 100%;
+    }
+
+    #main-section-info-ad #main-title-junior-ad {
+        margin: 0 auto;
+        font-size: 20px;
+        font-family: "Montserrat";
+        color: rgb(44, 44, 44);
+        line-height: 1.05;
+        width: 311px;
+    }
+
+    #main-section-info-ad #route-ad #main-actions-reserve-ad {
+        background-color: rgb(44, 44, 44);
+        border: none;
+        padding: 15px 18px 15px 25px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        margin: 102px auto 0 auto;
+        text-decoration: none;
+        width: 180px;
+    }
+
+    #main-section-info-ad #route-ad #main-actions-reserve-ad:hover svg {
+        fill: #000000;
+    }
+
+    #main-section-info-ad #route-ad #main-actions-reserve-ad span {
+        font-size: 16px;
+        font-family: "Montserrat-Medium", sans-serif;
+        color: rgb(255, 255, 255);
+    }
+
+    #main-section-info-ad #route-ad #main-actions-reserve-ad svg {
+        margin-left: 30px;
+        width: 30px;
+        height: 30px;
+        fill: rgb(255, 255, 255)
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    #main-section {
+        display: none;
+    }
+
+    #main-section-ad, #main-section-info-ad {
+        display: block;
+    }
+
+    #header {
+        justify-content: space-between;
+    }
+
+    #header #burger {
+        width: 45px;
+        height: 45px;
+        display: block;
+    }
+
+    #header #burger svg:hover {
+        width: 45px;
+        height: 45px;
+        fill: #0c4882;
+        cursor: pointer;
+    }
+
+    #header #burger svg {
+        fill: #2c2c2c;
+        width: 100%;
+    }
+
+    #header #header-items {
+        display: none;
+    }
+
+    #gallery #gallery-container .gallery-sections .gallery-section.first a.test-popup-link img,
+    #gallery #gallery-container .gallery-sections .gallery-section.second a.test-popup-link img,
+    #gallery #gallery-container .gallery-sections .gallery-section.third a.test-popup-link img {
+        width: 200px;
+    }
+
+    #gallery-container>div>button.button-prev-gallery.slick-arrow {
+        left: 39.2%;
+    }
+
+    #gallery-container>div>button.button-next-gallery.slick-arrow {
+        right: 39.1%;
+    }
+
+    #booking #booking-bg-img {
+        max-width: 1920px;
+        background-image: url('../images/booking-img.png') no-repeat;
+        margin: 0 auto;
+    }
+
+    #booking #booking-bg-img #booking-container h2 {
+        width: 330px;
+        margin: 0 auto;
+    }
+
+    #booking #booking-bg-img #booking-container form {
+        padding-bottom: 46px;
+    }
+
+    #burger-menu {
+        width: 100%;
+        height: 100%;
+        background: rgba(35, 184, 225, .9);
+        z-index: 99;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+
+    #burger-menu #burger-menu-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 80px auto 0 auto;
+        height: 300px;
+    }
+
+    #burger-menu #burger-menu-items .header-item-burger {
+        text-decoration: none;
+        font-size: 15px;
+        font-family: "Montserrat-SemiBold", sans-serif;
+        color: rgb(255, 255, 255);
+    }
+
+    #burger-menu #close {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    #burger-menu #close svg {
+        width: 100%;
+        height: 100%;
+        fill: rgb(44, 44, 44);
+    }
+
+    #burger-menu #close svg:hover {
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #main-section-ad #main-title-ad {
+        font-size: 30px;
+    }
+
+    #main-section-ad #main-title-ad {
+        width: 245px;
+    }
+
+    #main-section-ad #href-video-ad {
+        width: 200px;
+        margin: 30px auto 0 auto;
+    }
+
+    #href-video-ad>img:nth-child(1) {
+        width: 40px;
+        height: 40px;
+    }
+
+    #fire-and-ice>div:nth-child(1) {
+        height: 280px;
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    #main-section-info-ad {
+        margin: 326px auto 80px auto;
+    }
+
+    .white-title {
+        font-size: 25px;
+    }
+
+    #main-info #main-info-island-is {
+        padding-top: 80px;
+        margin: 0 auto 140px auto;
+        max-width: 345px;
+    }
+
+    #main-info #benefits .white-title {
+        max-width: 272px;
+    }
+
+    #main-info #benefits {
+        padding-bottom: 115px;
+    }
+
+
+    #main-info #main-info-island-is #main-info-text .white-text {
+        margin-top: 35px;
+    }
+
+    #main-info #main-info-island-is #fire-and-ice .white-square img {
+        top: 46px;
+        width: 285px;
+    }
+
+    #main-info #main-info-island-is .white-text {
+        width: 345px;
+    }
+
+    #main-info #unique-place {
+        width: 262px;
+    }
+
+
+
+    #main-info #unique-place #unique-place-info #island-map #island-map{
+        margin: 40px auto 0 auto;
+    }
+
+    #main-info #unique-place #unique-place-info #island-map-img  {
+max-width: 100%;
+    }
+
+    #main-info #unique-place #unique-place-info #island-map #island-map-route {
+        width: 64px;
+        height: 108px;
+        left: 60px;
+        top: 98px;
+    }
+
+    #main-info #unique-place #unique-place-info #island-map .island-map-item#island-map-item-1 {
+        top: 83px;
+        left: 41px;
+    }
+
+    #main-info #unique-place #unique-place-info #island-map .island-map-item#island-map-item-2 {
+        top: 124px;
+        left: 81px;
+    }
+
+    #main-info #unique-place #unique-place-info #island-map .island-map-item#island-map-item-3 {
+        top: 150px;
+        left: 57px;
+    }
+
+    #main-info #unique-place #unique-place-info #island-map .island-map-item#island-map-item-4 {
+        top: 181px;
+        left: 62px;
+    }
+
+    #main-info #unique-place #unique-place-info #island-map .island-map-item#island-map-item-5 {
+        top: 187px;
+        left: 115px;
+    }
+
+    #main-info #unique-place #unique-place-info #island-map #island-name {
+        font-size: 30px;
+        font-family: "Corinthia", sans-serif;
+        top: 137px;
+        right: 56px;
+    }
+
+    #main-info #unique-place #unique-place-info #blue-lagoon {
+        width: 290px;
+        margin-top: 40px;
+        padding-bottom: 155px;
+    }
+
+    #main-info #unique-place #unique-place-info #blue-lagoon p {
+        font-size: 14px;
+    }
+
+    #main-info #unique-place #unique-place-info #blue-lagoon #white-square-small {
+        width: 220px;
+        height: 210px;
+    }
+
+    #main-info #unique-place #unique-place-info #blue-lagoon #white-square-small img {
+        position: absolute;
+        top: 22px;
+        right: 54px;
+        width: 237px;
+    }
+
+#video-section {
+    max-width: 1200px;
+}
+    
+    #video-section #video-section-container {
+        padding-bottom: 80px;
+    }
+
+    #video-section #video-section-container #video-section-container-image #play-video {
+        font-size: 13px;
+        width: 210px;
+        top: calc(50% - 23px);
+        right: calc(50% - 105px);
+    }
+
+    #video-section #video-section-container #video-section-container-image #play-video>img:nth-child(1) {
+        width: 46px;
+    }
+
+    #video-section #video-section-container #video-iframe {
+        width: 100%;
+    }
+
+    #tour-program #tour-program-container .tour-programs .tour-program-list {
+        margin-top: 40px;
+        width: 290px;
+    }
+
+    #tour-program #tour-program-container .tour-programs .tour-program-list .tour-program-info .tour-program-info-day-title {
+        font-size: 20px;
+    }
+
+    #tour-program #tour-program-container .tour-programs .tour-program-list .white-square {
+        top: 136px;
+    }
+
+    #tour-program #tour-program-container .tour-programs .tour-program-list .white-square {
+        width: 224px;
+        height: 274px;
+    }
+
+    #tour-program #tour-program-container .tour-programs .tour-program-list .white-square img {
+        width: 244px;
+        height: 232px;
+        top: 21px;
+        left: 48px;
+    }
+
+    #tour-program #tour-program-container .tour-programs .tour-program-list .tour-program-info .tour-program-info-text {
+        margin-top: 321px;
+        width: 290px;
+    }
+
+    #tour-program #tour-program-container .tour-programs .tour-program-list {
+        height: 770px;
+        width: 290px;
+    }
+
+    #tour-program #tour-program-container {
+        height: 770px;
+    }
+
+    #tour-program #tour-program-container #tour-program-navigation {
+        bottom: 137px;
+        left: 0;
+    }
+
+    #tour-program {
+        padding-bottom: 126px;
+    }
+
+    #tour-program #tour-program-container .tour-programs .tour-program-list .tour-program-info {
+        width: 290px;
+    }
+
+    #tour-program #tour-program-container {
+        width: 290px;
+    }
+
+    #tour-program #tour-program-container .tour-programs .tour-program-list .tour-program-info .tour-program-info-text {
+        font-size: 14px;
+        overflow: visible;
+    }
+
+    .button-next-program, .button-prev-program {
+        bottom: 102px;
+    }
+
+    .button-prev-program {
+        left: 0;
+    }
+
+    .button-next-program {
+        left: 65px;
+    }
+
+    #reviews #reviews-container .reviews-box .button-prev-reviews {
+        left: 86px;
+        bottom: 43px;
+    }
+
+    #reviews #reviews-container .reviews-box .button-next-reviews {
+        left: 135px;
+        bottom: 43px;
+    }
+
+
+
+    #reviews #reviews-container .reviews-section {
+        margin-top: 40px;
+        height: 770px;
+    }
+
+    #reviews #reviews-container .reviews-section .reviews-info {
+        width: 260px;
+    }
+
+    #reviews #reviews-container .reviews-section .reviews-info .reviews-text {
+        width: 260px;
+        margin-top: 23px;
+        font-size: 14px;
+    }
+
+
+    #reviews #reviews-container .reviews-section .review-photo {
+        bottom: 156px;
+    }
+
+    #reviews #reviews-container .reviews-section .review-photo img {
+        width: 260px;
+    }
+
+    #reviews #reviews-container .reviews-section {
+        padding: 0;
+    }
+
+    #reviews #reviews-container .reviews-section .reviews-info .reviews-name {
+        padding-top: 40px;
+    }
+
+    #reviews #reviews-container .reviews-section .reviews-info .reviews-number {
+        margin-top: 20px;
+    }
+
+    #main-info #benefits #benefits-map .benefit .benefit-circle {
+        width: 50px;
+        height: 50px;
+    }
+
+    #main-info #benefits #benefits-map .benefit .benefit-circle .benefit-num {
+        font-size: 25px;
+        bottom: calc(50% - 24px);
+    }
+
+    #gallery {
+        padding-top: 80px;
+    }
+
+    #gallery #gallery-container .gallery-sections .gallery-section.first a:nth-child(3),
+    #gallery #gallery-container .gallery-sections .gallery-section.second a:nth-child(2),
+    #gallery #gallery-container .gallery-sections .gallery-section.third a:nth-child(5) {
+        display: none;
+    }
+
+    #gallery #gallery-container .gallery-sections .gallery-section.first a.test-popup-link img, #gallery #gallery-container .gallery-sections .gallery-section.second a.test-popup-link img, #gallery #gallery-container .gallery-sections .gallery-section.third a.test-popup-link img {
+        width: 290px;
+    }
+
+    #gallery #gallery-container .gallery-sections .gallery-section {
+        height: 320px;
+    }
+
+    #gallery #gallery-container .gallery-sections {
+        padding-bottom: 0px;
+    }
+
+    #gallery-container>div>button.button-prev-gallery.slick-arrow {
+        bottom: -10.5%;
+        left: 37.2%;
+    }
+
+    #gallery-container>div>button.button-next-gallery.slick-arrow {
+        bottom: -11%;
+        right: 37.1%;
+    }
+
+    #booking #booking-bg-img #booking-container {
+        padding-top: 36px;
+    }
+
+    #booking #booking-bg-img #booking-container form {
+        width: 290px;
+        margin: 35px auto 0 auto;
+    }
+
+    .form-text {
+        text-align: left;
+    }
+
+    .form-radio-btn label {
+        width: 30px;
+        height: 30px;
+        line-height: 29px;
+        font-size: 17px;
+    }
+
+    #booking #booking-bg-img #booking-container form #booking-people {
+        width: 290px;
+        margin-bottom: 40px;
+    }
+
+    #booking #booking-bg-img #booking-container form .input-block {
+        width: 290px;
+    }
+
+    #booking #booking-bg-img #booking-container form .form-button {
+        width: 290px;
+    }
+
+
+    #footer-container {
+        flex-direction: column;
+        height: 130px;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    #header,
+    #main-info,
+    #gallery,
+    #footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #main-section-info-ad #main-title-junior-ad {
+        width: 180px;
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+        color: rgb(44, 44, 44);
+        line-height: 1.05;
+        text-align: center;
+    }
+
+    #main-section-info-ad #route-ad img {
+        width: 230px;
+    }
+
+    #main-section-info-ad #route-ad #route-price-ad {
+        left: 63px;
+    }
+
+    #main-section-info-ad #route-ad #route-place-ad {
+        right: -2px;
+    }
+
+    #main-info #main-info-island-is #fire-and-ice .white-square img {
+        left: 25px;
+    }
+
+    #main-info #main-info-island-is #fire-and-ice .white-square img {
+        width: 265px;
+    }
+
+    #main-info #main-info-island-is .white-text {
+        width: 290px;
+        font-size: 14px;
+    }
+
+    #reviews #reviews-container {
+        max-width: 290px;
+    }
+
+    #reviews #reviews-container .reviews-box .button-prev-reviews {
+        left: 15px;
+    }
+
+    #reviews #reviews-container .reviews-box .button-next-reviews {
+        left: 65px;
+    }
+
+    #gallery-container>div>button.button-prev-gallery.slick-arrow {
+        left: 33.2%;
+    }
+
+    #gallery-container>div>button.button-next-gallery.slick-arrow {
+        right: 33.1%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #gallery-container>div>button.button-prev-gallery.slick-arrow {
+        left: 32.2%;
+    }
+
+    #gallery-container>div>button.button-next-gallery.slick-arrow {
+        right: 32.1%;
+    }
+
+    #gallery #gallery-container .gallery-sections .gallery-section {
+        display: block;
+    }
+
+    #gallery #gallery-container .gallery-sections .gallery-section.third a:nth-child(1) {
+        width: 290px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 320px) {
+
+    #main-section-ad #main-ice-block-ad #main-ice-ad {
+        display: none;
+    }
+
+    #main-section-ad #main-ice-block-ad #main-ice-ad-320 {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
